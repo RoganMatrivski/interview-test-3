@@ -36,7 +36,7 @@ export default function ItemList({ items }: ItemListProps) {
 	return (
 		<ul>
 			{list.map((item, index) => (
-				<li key={cyrb53(item)}>
+				<li key={cyrb53(item + index)}>
 					{item}
 					<button type="button" onClick={() => handleDelete(index)}>
 						Delete
