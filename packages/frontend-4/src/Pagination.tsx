@@ -26,7 +26,7 @@ type PaginationProps = {
 	itemsPerPage: number;
 };
 
-const Pagination: React.FC<PaginationProps> = ({ items, itemsPerPage }) => {
+function Pagination({ items, itemsPerPage }: PaginationProps) {
 	// No need for useEffect.
 	// When currentPage changed, this component will rerender and
 	// recalculates currentItems.
@@ -82,6 +82,6 @@ const Pagination: React.FC<PaginationProps> = ({ items, itemsPerPage }) => {
 			</div>
 		</div>
 	);
-};
+}
 
 export default Pagination;

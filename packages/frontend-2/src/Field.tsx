@@ -8,7 +8,7 @@ type FieldProps = {
 	error: string | undefined;
 };
 
-const Field = ({ label, type, value, onChange, error }: FieldProps) => {
+function Field({ label, type, value, onChange, error }: FieldProps) {
 	return (
 		<div style={{ marginBottom: "1rem" }}>
 			<label>
@@ -24,6 +24,6 @@ const Field = ({ label, type, value, onChange, error }: FieldProps) => {
 			{error && <div style={{ color: "red", fontSize: "0.9rem" }}>{error}</div>}
 		</div>
 	);
-};
+}
 
 export default Field;
