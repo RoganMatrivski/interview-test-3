@@ -1,0 +1,22 @@
+{
+  "name": "backend-2",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/cookie-parser": "^1.4.8"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "argon2": "^0.43.0",
+    "body-parser": "^2.2.0",
+    "cookie-parser": "^1.4.7",
+    "express-jwt": "^8.5.1",
+    "jose": "^6.0.11",
+    "jwt-decode": "^4.0.0",
+    "uuid": "^11.1.0"
+  }
+}
