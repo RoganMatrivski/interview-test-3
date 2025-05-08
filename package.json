@@ -1,0 +1,10 @@
+{
+    "name": "interview-test-3",
+    "version": "0.0.1-alpha",
+    "workspaces": [
+        "packages/*"
+    ],
+    "devDependencies": {
+        "@biomejs/biome": "^1.9.4"
+    }
+}
